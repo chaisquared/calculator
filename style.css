@@ -1,0 +1,114 @@
+body {
+    background-color: rgb(229, 206, 255);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    height: 420px;
+    width: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+#buttonBody {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#rowone {
+    display: flex;
+    flex-direction: row;
+}
+
+#rowtwo {
+    display: flex;
+    flex-direction: row;
+}
+
+#rowthree {
+    display: flex;
+    flex-direction: row;
+}
+
+#rowfour {
+    display: flex;
+    flex-direction: row;
+}
+
+#nine,
+#eight,
+#seven,
+#six,
+#five,
+#four,
+#three,
+#two,
+#one,
+#add,
+#subtract,
+#multiply {
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+}
+
+#clear,
+#zero,
+#divide {
+    height: 50px;
+    width: 85px;
+    margin: 10px;
+}
+
+#nine,
+#eight,
+#seven,
+#six,
+#five,
+#four,
+#three,
+#two,
+#one,
+#zero {
+    background-color: rgb(255, 230, 168);
+    border-color: rgb(255, 230, 168);
+    border-radius: 10px;
+}
+
+#add,
+#subtract,
+#multiply,
+#divide {
+    background-color: rgb(255, 210, 210);
+    border-color: rgb(255, 210, 210);
+    border-radius: 10px;
+}
+
+#clear {
+    background-color: rgb(171, 181, 222);
+    border-color: rgb(171, 181, 222);
+    border-radius: 10px;
+}
+
+#solutions {
+    width: 295px;
+    height: 70px;
+    background-color: rgb(229, 206, 255);
+    display: flex;
+    border-radius: 10px;
+}
