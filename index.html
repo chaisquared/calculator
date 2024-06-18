@@ -9,37 +9,38 @@
 </head>
 
 <body>
-    <script src="javascript.js"></script>
     <div id="container">
-        <div id="solutions"></div>
+        <div id="display"></div>
         <div id="buttonBody">
             <div id="buttons">
-                <div id="rowone">
-                    <button id="nine">9</button>
-                    <button id="eight">8</button>
-                    <button id="seven">7</button>
-                    <button id="add">+</button>
+                <div class="row">
+                    <button id="nine" class="number-btn">9</button>
+                    <button id="eight" class="number-btn">8</button>
+                    <button id="seven" class="number-btn">7</button>
+                    <button id="equals" class="equal-btn">=</button>
                 </div>
-                <div id="rowtwo">
-                    <button id="six">6</button>
-                    <button id="five">5</button>
-                    <button id="four">4</button>
-                    <button id="subtract">-</button>
+                <div class="row">
+                    <button id="six" class="number-btn">6</button>
+                    <button id="five" class="number-btn">5</button>
+                    <button id="four" class="number-btn">4</button>
+                    <button id="add" class="operation-btn">+</button>
                 </div>
-                <div id="rowthree">
-                    <button id="three">3</button>
-                    <button id="two">2</button>
-                    <button id="one">1</button>
-                    <button id="multiply">x</button>
+                <div class="row">
+                    <button id="three" class="number-btn">3</button>
+                    <button id="two" class="number-btn">2</button>
+                    <button id="one" class="number-btn">1</button>
+                    <button id="subtract" class="operation-btn">-</button>
                 </div>
-                <div id="rowfour">
+                <div class="row">
                     <button id="clear">AC</button>
-                    <button id="zero">0</button>
-                    <button id="divide">/</button>
+                    <button id="zero" class="number-btn">0</button>
+                    <button id="divide" class="operation-btn">/</button>
+                    <button id="multiply" class="operation-btn">x</button>
                 </div>
             </div>
         </div>
     </div>
+    <script src="javascript.js"></script>
 </body>
 
 </html>
